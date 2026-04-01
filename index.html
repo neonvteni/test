@@ -26,6 +26,10 @@
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<!-- Three.js и Vanta.js Clouds -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.clouds.min.js"></script>
+
 <script id="tailwind-config">
         tailwind.config = {
             darkMode: "class",
@@ -192,10 +196,11 @@
             </a>
 </div>
 </nav>
-<main class="pt-24 sun-flare overflow-x-hidden">
+<main class="pt-24 overflow-x-hidden">
 <!-- Hero Section -->
-<section class="relative px-8 py-20 md:py-32 max-w-screen-2xl mx-auto flex flex-col md:flex-row items-center gap-16">
-<div class="w-full md:w-1/2 z-10">
+<section id="hero-vanta" class="relative px-8 py-20 md:py-32 max-w-screen-2xl mx-auto flex flex-col md:flex-row items-center gap-16">
+<div id="vanta-bg" class="absolute inset-0 -z-10"></div>
+<div class="w-full md:w-1/2 z-10 relative">
 <span class="font-label uppercase tracking-[0.3em] text-xs text-on-tertiary-container mb-4 block">Пробуждение вкуса</span>
 <h1 class="text-5xl md:text-8xl font-headline leading-[1.1] mb-8 tracking-tight">
                     Вкус <span class="italic text-on-tertiary-container">утреннего солнца</span> в вашем соке
@@ -209,7 +214,7 @@
                     </a>
 </div>
 </div>
-<div class="w-full md:w-1/2 relative">
+<div class="w-full md:w-1/2 relative z-10">
 <!-- Organic Shape & Image -->
 <div class="relative w-full aspect-square flex items-center justify-center">
 <div class="absolute inset-0 organic-blob bg-secondary-fixed-dim/30 animate-pulse"></div>
@@ -484,5 +489,15 @@
         }
 
         console.log('JuiceMaster: Все анимации загружены успешно!');
+
+        // VANTA.CLOUDS Animation
+        VANTA.CLOUDS({
+            el: "#vanta-bg",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00
+        });
     </script>
 </body></html>
