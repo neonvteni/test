@@ -1,214 +1,137 @@
 <!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JuiceMaster | Энергия природы в каждой капле</title>
-    
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="Соковыжималки премиум класса для здорового образа жизни. Бережный холодный отжим сохраняет до 95% витаминов. Бесплатная доставка за 24 часа.">
-    <meta name="keywords" content="соковыжималки, шнековые соковыжималки, центрифужные соковыжималки, холодный отжим, здоровое питание, витамины">
-    <meta name="author" content="JuiceMaster">
-    <meta name="robots" content="index, follow">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://juicemaster.ru/">
-    <meta property="og:title" content="JuiceMaster | Энергия природы в каждой капле">
-    <meta property="og:description" content="Соковыжималки премиум класса для здорового образа жизни. Бережный холодный отжим сохраняет до 95% витаминов.">
-    <meta property="og:image" content="https://images.unsplash.com/photo-1600271886742-f049cd451bba?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
-    
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://juicemaster.ru/">
-    <meta property="twitter:title" content="JuiceMaster | Энергия природы в каждой капле">
-    <meta property="twitter:description" content="Соковыжималки премиум класса для здорового образа жизни. Бережный холодный отжим сохраняет до 95% витаминов.">
-    <meta property="twitter:image" content="https://images.unsplash.com/photo-1600271886742-f049cd451bba?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍊</text></svg>">
-    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍊</text></svg>">
-    
-    <!-- Theme Color -->
-    <meta name="theme-color" content="#FF7E00">
-    <meta name="msapplication-TileColor" content="#FF7E00">
-    
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://juicemaster.ru/">
-    
-    <!-- Google Fonts: Playfair Display (Органика/Премиум) & DM Sans (Чистота/Читаемость) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
-
-    <style>
-        /* ================= NATURE & SUN VARIABLES ================= */
-        :root {
-            /* Палитра Природы и Света */
-            --bg-main: #FCFBF8;        /* Теплый сливочный (цвет овсяного молока) */
-            --bg-surface: #FFFFFF;     /* Чистый белый для карточек */
-            --bg-sun: #FFF7ED;         /* Мягкий солнечный отсвет */
-            
-            --accent-sun: #FF7E00;     /* Яркий апельсин / Утреннее солнце */
-            --accent-sun-hover: #E67100;
-            --accent-leaf: #4D8B55;    /* Спокойный цвет зелени */
-            
-            --text-earth: #3B3631;     /* Темный коричнево-серый (кора дерева) */
-            --text-muted: #7A726A;     /* Мягкий серый для описаний */
-            
-            --border-light: #F0EAE1;
-
-            /* Типографика */
-            --font-heading: 'Playfair Display', serif;
-            --font-body: 'DM Sans', sans-serif;
-
-            /* Эффекты (мягкие, солнечные) */
-            --radius-sm: 12px;
-            --radius-md: 24px;
-            --radius-pill: 100px;
-            
-            /* Тени имитируют рассеянный свет */
-            --shadow-soft: 0 12px 36px rgba(139, 126, 111, 0.06);
-            --shadow-glow: 0 16px 40px rgba(255, 126, 0, 0.15);
-            
-            --transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+<html lang="ru"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>JuiceMaster — Вкус утреннего солнца</title>
+<!-- SEO Meta Tags -->
+<meta name="description" content="Соковыжималки премиум класса для здорового образа жизни. Бережный холодный отжим сохраняет до 95% витаминов. Бесплатная доставка за 24 часа.">
+<meta name="keywords" content="соковыжималки, шнековые соковыжималки, центрифужные соковыжималки, холодный отжим, здоровое питание, витамины">
+<meta name="author" content="JuiceMaster">
+<meta name="robots" content="index, follow">
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://juicemaster.ru/">
+<meta property="og:title" content="JuiceMaster | Вкус утреннего солнца">
+<meta property="og:description" content="Соковыжималки премиум класса для здорового образа жизни. Бережный холодный отжим сохраняет до 95% витаминов.">
+<meta property="og:image" content="https://images.unsplash.com/photo-1600271886742-f049cd451bba?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://juicemaster.ru/">
+<meta property="twitter:title" content="JuiceMaster | Вкус утреннего солнца">
+<meta property="twitter:description" content="Соковыжималки премиум класса для здорового образа жизни. Бережный холодный отжим сохраняет до 95% витаминов.">
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍊</text></svg>">
+<meta name="theme-color" content="#FF7E00">
+<link rel="canonical" href="https://juicemaster.ru/">
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "tertiary-fixed": "#ffdbc7",
+                        "secondary-fixed": "#b0f3b3",
+                        "primary-fixed-dim": "#bccbb5",
+                        "surface-container-low": "#f4f3f1",
+                        "on-secondary-fixed-variant": "#115223",
+                        "on-tertiary-container": "#fb7c00",
+                        "surface-container-highest": "#e3e2e0",
+                        "on-secondary": "#ffffff",
+                        "error": "#ba1a1a",
+                        "surface-container": "#efeeeb",
+                        "primary": "#182416",
+                        "tertiary-container": "#5b2900",
+                        "surface-container-high": "#e9e8e5",
+                        "surface-tint": "#546250",
+                        "on-surface": "#1a1c1a",
+                        "surface": "#faf9f6",
+                        "on-secondary-fixed": "#002108",
+                        "primary-container": "#2d3a2a",
+                        "on-secondary-container": "#33713e",
+                        "on-primary-fixed-variant": "#3d4a39",
+                        "on-primary-fixed": "#121f10",
+                        "outline": "#747871",
+                        "on-primary": "#ffffff",
+                        "on-primary-container": "#95a48f",
+                        "on-background": "#1a1c1a",
+                        "surface-bright": "#faf9f6",
+                        "secondary-fixed-dim": "#94d699",
+                        "inverse-surface": "#2f312f",
+                        "inverse-on-surface": "#f1f1ee",
+                        "tertiary": "#3a1800",
+                        "background": "#faf9f6",
+                        "secondary-container": "#b0f3b3",
+                        "surface-dim": "#dbdad7",
+                        "on-tertiary-fixed-variant": "#733500",
+                        "on-surface-variant": "#444841",
+                        "inverse-primary": "#bccbb5",
+                        "error-container": "#ffdad6",
+                        "surface-container-lowest": "#ffffff",
+                        "secondary": "#2d6a38",
+                        "on-tertiary": "#ffffff",
+                        "tertiary-fixed-dim": "#ffb688",
+                        "outline-variant": "#c4c8bf",
+                        "on-error-container": "#93000a",
+                        "surface-variant": "#e3e2e0",
+                        "on-tertiary-fixed": "#311300",
+                        "on-error": "#ffffff",
+                        "primary-fixed": "#d8e7d0"
+                    },
+                    fontFamily: {
+                        "headline": ["Noto Serif", "serif"],
+                        "body": ["Plus Jakarta Sans", "sans-serif"],
+                        "label": ["Plus Jakarta Sans", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+                },
+            },
         }
-
-        /* ================= ANIMATIONS ================= */
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(40px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        @keyframes fadeInLeft {
-            from {
-                opacity: 0;
-                transform: translateX(-40px);
-            }
-            to {
-                opacity: 1;
-                transform: translateX(0);
-            }
-        }
-
-        @keyframes fadeInRight {
-            from {
-                opacity: 0;
-                transform: translateX(40px);
-            }
-            to {
-                opacity: 1;
-                transform: translateX(0);
-            }
-        }
-
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-            }
-            to {
-                opacity: 1;
-            }
-        }
-
-        @keyframes pulse {
-            0%, 100% {
-                transform: scale(1);
-                box-shadow: 0 8px 24px rgba(255, 126, 0, 0.25);
-            }
-            50% {
-                transform: scale(1.02);
-                box-shadow: 0 12px 32px rgba(255, 126, 0, 0.35);
-            }
-        }
+    </script>
+<style>
+        .ease-leaf-fall { transition-timing-function: cubic-bezier(0.22, 1, 0.36, 1); }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+        .glass-nav { backdrop-filter: blur(24px); }
+        .organic-blob { border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; }
+        .sun-flare { background: radial-gradient(circle at top right, rgba(255, 219, 199, 0.2) 0%, rgba(250, 249, 246, 0) 70%); }
 
         @keyframes float {
-            0%, 100% {
-                transform: translateY(0);
-            }
-            50% {
-                transform: translateY(-10px);
-            }
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
         }
 
-        @keyframes shimmer {
-            0% {
-                background-position: -200% 0;
-            }
-            100% {
-                background-position: 200% 0;
-            }
+        @keyframes pulse-glow {
+            0%, 100% { box-shadow: 0 8px 24px rgba(255, 126, 0, 0.25); }
+            50% { box-shadow: 0 12px 32px rgba(255, 126, 0, 0.35); }
         }
 
-        @keyframes rotate {
-            from {
-                transform: rotate(0deg);
-            }
-            to {
-                transform: rotate(360deg);
-            }
-        }
+        .animate-float { animation: float 6s ease-in-out infinite; }
+        .animate-pulse-glow { animation: pulse-glow 3s ease-in-out infinite; }
 
-        /* Animation Classes */
+        /* Scroll animations */
         .animate-on-scroll {
             opacity: 0;
             transform: translateY(40px);
             transition: all 0.8s cubic-bezier(0.25, 0.8, 0.25, 1);
         }
-
         .animate-on-scroll.visible {
             opacity: 1;
             transform: translateY(0);
         }
-
         .animate-delay-1 { transition-delay: 0.1s; }
         .animate-delay-2 { transition-delay: 0.2s; }
         .animate-delay-3 { transition-delay: 0.3s; }
-        .animate-delay-4 { transition-delay: 0.4s; }
 
-        /* ================= PRELOADER ================= */
-        .preloader {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: var(--bg-main);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            z-index: 9999;
-            transition: opacity 0.5s ease, visibility 0.5s ease;
-        }
-
-        .preloader.hidden {
-            opacity: 0;
-            visibility: hidden;
-        }
-
-        .preloader-spinner {
-            width: 60px;
-            height: 60px;
-            border: 3px solid var(--border-light);
-            border-top-color: var(--accent-sun);
-            border-radius: 50%;
-            animation: rotate 1s linear infinite;
-        }
-
-        /* ================= BACK TO TOP ================= */
+        /* Back to top */
         .back-to-top {
             position: fixed;
             bottom: 30px;
             right: 30px;
             width: 50px;
             height: 50px;
-            background: var(--accent-sun);
+            background: #fb7c00;
             color: white;
             border: none;
             border-radius: 50%;
@@ -216,779 +139,271 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            box-shadow: var(--shadow-glow);
+            box-shadow: 0 8px 24px rgba(255, 126, 0, 0.3);
             opacity: 0;
             visibility: hidden;
-            transition: var(--transition);
+            transition: all 0.4s cubic-bezier(0.22, 1, 0.36, 1);
             z-index: 100;
         }
-
         .back-to-top.visible {
             opacity: 1;
             visibility: visible;
         }
-
         .back-to-top:hover {
             transform: translateY(-5px);
-            box-shadow: 0 20px 40px rgba(255, 126, 0, 0.3);
+            box-shadow: 0 16px 40px rgba(255, 126, 0, 0.4);
         }
 
-        /* ================= ENHANCED COMPONENTS ================= */
+        /* Notification */
         .notification {
             position: fixed;
             bottom: 100px;
             right: 30px;
-            background: var(--accent-leaf);
+            background: #2d6a38;
             color: white;
             padding: 16px 24px;
-            border-radius: var(--radius-md);
-            box-shadow: var(--shadow-soft);
+            border-radius: 1rem;
+            box-shadow: 0 12px 36px rgba(0,0,0,0.1);
             opacity: 0;
             visibility: hidden;
             transform: translateX(100px);
-            transition: var(--transition);
+            transition: all 0.4s cubic-bezier(0.22, 1, 0.36, 1);
             z-index: 1000;
         }
-
         .notification.show {
             opacity: 1;
             visibility: visible;
             transform: translateX(0);
         }
-
-        .tooltip {
-            position: relative;
-        }
-
-        .tooltip::after {
-            content: attr(data-tooltip);
-            position: absolute;
-            bottom: 100%;
-            left: 50%;
-            transform: translateX(-50%) translateY(-8px);
-            background: var(--text-earth);
-            color: white;
-            padding: 8px 12px;
-            border-radius: var(--radius-sm);
-            font-size: 0.85rem;
-            white-space: nowrap;
-            opacity: 0;
-            visibility: hidden;
-            transition: var(--transition);
-        }
-
-        .tooltip:hover::after {
-            opacity: 1;
-            visibility: visible;
-            transform: translateX(-50%) translateY(0);
-        }
-
-        /* ================= RESET ================= */
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        html { scroll-behavior: smooth; }
-        ::selection { background-color: var(--accent-sun); color: #fff; }
-
-        body {
-            font-family: var(--font-body);
-            color: var(--text-earth);
-            background-color: var(--bg-main);
-            line-height: 1.6;
-            overflow-x: hidden;
-            background-image: radial-gradient(circle at top right, var(--bg-sun) 0%, transparent 40%);
-        }
-
-        h1, h2, h3, h4, h5, h6 {
-            font-family: var(--font-heading);
-            color: var(--text-earth);
-            font-weight: 600;
-            line-height: 1.2;
-        }
-
-        i { font-style: italic; font-weight: 400; }
-
-        a { text-decoration: none; color: inherit; }
-        ul { list-style: none; }
-        img { max-width: 100%; height: auto; display: block; border-radius: var(--radius-sm); }
-
-        /* ================= COMPONENTS ================= */
-        .container {
-            width: 100%;
-            max-width: 1280px;
-            margin: 0 auto;
-            padding: 0 24px;
-        }
-
-        .btn {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            padding: 16px 36px;
-            font-family: var(--font-body);
-            font-weight: 600;
-            font-size: 1rem;
-            border-radius: var(--radius-pill);
-            cursor: pointer;
-            transition: var(--transition);
-            border: none;
-        }
-
-        .btn-sun {
-            background-color: var(--accent-sun);
-            color: #FFFFFF;
-            box-shadow: 0 8px 24px rgba(255, 126, 0, 0.25);
-        }
-
-        .btn-sun:hover {
-            background-color: var(--accent-sun-hover);
-            transform: translateY(-3px);
-            box-shadow: var(--shadow-glow);
-        }
-
-        .btn-leaf {
-            background-color: transparent;
-            color: var(--accent-leaf);
-            border: 2px solid var(--accent-leaf);
-        }
-
-        .btn-leaf:hover {
-            background-color: var(--accent-leaf);
-            color: #FFFFFF;
-        }
-
-        .section-tag {
-            display: inline-block;
-            padding: 6px 16px;
-            background-color: rgba(77, 139, 85, 0.1);
-            color: var(--accent-leaf);
-            border-radius: var(--radius-pill);
-            font-size: 0.85rem;
-            font-weight: 600;
-            margin-bottom: 20px;
-            letter-spacing: 0.5px;
-            text-transform: uppercase;
-        }
-
-        .section-title {
-            font-size: 3rem;
-            margin-bottom: 20px;
-        }
-
-        .section-subtitle {
-            font-size: 1.15rem;
-            color: var(--text-muted);
-            max-width: 600px;
-            margin: 0 auto 60px auto;
-        }
-
-        section { padding: 100px 0; }
-
-        /* ================= HEADER ================= */
-        header {
-            position: fixed;
-            top: 0; left: 0; width: 100%;
-            background-color: rgba(252, 251, 248, 0.9);
-            backdrop-filter: blur(10px);
-            z-index: 1000;
-            padding: 20px 0;
-            transition: var(--transition);
-            border-bottom: 1px solid rgba(240, 234, 225, 0.5);
-        }
-
-        .header-content {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-
-        .logo {
-            font-family: var(--font-heading);
-            font-weight: 700;
-            font-size: 1.8rem;
-            color: var(--accent-leaf);
-        }
-
-        .logo span { color: var(--accent-sun); font-style: italic; font-weight: 600; }
-
-        .nav-links { display: flex; gap: 40px; }
-
-        .nav-links a {
-            font-weight: 500;
-            color: var(--text-earth);
-            transition: var(--transition);
-        }
-
-        .nav-links a:hover { color: var(--accent-sun); }
-
-        .header-actions .btn { padding: 12px 28px; font-size: 0.95rem; }
-
-        /* ================= HERO ================= */
-        .hero {
-            padding-top: 180px;
-            padding-bottom: 100px;
-            position: relative;
-            overflow: hidden;
-        }
-
-        /* Декоративный "солнечный зайчик" */
-        .sun-flare {
-            position: absolute;
-            top: -10%; right: -5%;
-            width: 600px; height: 600px;
-            background: radial-gradient(circle, rgba(255, 126, 0, 0.15) 0%, transparent 60%);
-            border-radius: 50%;
-            z-index: -1;
-            filter: blur(40px);
-        }
-
-        .hero-content {
-            display: flex;
-            align-items: center;
-            gap: 60px;
-        }
-
-        .hero-text { flex: 1; }
-
-        .hero-text h1 {
-            font-size: 4rem;
-            line-height: 1.1;
-            margin-bottom: 24px;
-        }
-
-        .hero-text h1 span {
-            color: var(--accent-sun);
-        }
-
-        .hero-text p {
-            font-size: 1.25rem;
-            color: var(--text-muted);
-            margin-bottom: 40px;
-            max-width: 480px;
-        }
-
-        .hero-buttons { display: flex; gap: 16px; }
-
-        .hero-image {
-            flex: 1;
-            position: relative;
-        }
-
-        .image-wrapper {
-            position: relative;
-            border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%; /* Органическая форма (blob) */
-            overflow: hidden;
-            box-shadow: var(--shadow-glow);
-            aspect-ratio: 4/5;
-        }
-
-        .image-wrapper img {
-            width: 100%; height: 100%;
-            object-fit: cover;
-            transform: scale(1.02);
-            border-radius: 0;
-        }
-
-        /* ================= TOP-3 EXPERT CHOICE ================= */
-        .top-choice { text-align: center; background-color: #FFFFFF; }
-
-        .top-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 32px;
-            text-align: left;
-        }
-
-        .top-card {
-            background: var(--bg-main);
-            border-radius: var(--radius-md);
-            padding: 32px;
-            box-shadow: var(--shadow-soft);
-            transition: var(--transition);
-            position: relative;
-            border: 1px solid var(--border-light);
-            display: flex;
-            flex-direction: column;
-        }
-
-        .top-card:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 20px 40px rgba(139, 126, 111, 0.12);
-            border-color: #fff;
-        }
-
-        .badge {
-            display: inline-block;
-            padding: 6px 16px;
-            border-radius: var(--radius-pill);
-            font-size: 0.85rem;
-            font-weight: 600;
-            margin-bottom: 24px;
-        }
-
-        .badge.easy { background: #E8F5E9; color: var(--accent-leaf); }
-        .badge.balance { background: #FFF3E0; color: var(--accent-sun); }
-        .badge.pure { background: #F3E5F5; color: #8E24AA; }
-
-        .top-card h3 { font-size: 1.8rem; margin-bottom: 8px; }
-        
-        .price {
-            font-size: 1.5rem;
-            font-weight: 600;
-            color: var(--accent-sun);
-            margin-bottom: 20px;
-            font-family: var(--font-body);
-        }
-
-        .img-container {
-            height: 280px;
-            margin-bottom: 24px;
-            border-radius: var(--radius-sm);
-            overflow: hidden;
-        }
-
-        .img-container img {
-            width: 100%; height: 100%;
-            object-fit: cover;
-            transition: transform 0.8s ease;
-        }
-
-        .top-card:hover .img-container img { transform: scale(1.05); }
-
-        .top-card p {
-            color: var(--text-muted);
-            margin-bottom: 32px;
-            flex-grow: 1;
-        }
-
-        .top-card .btn { width: 100%; }
-
-        /* ================= CATALOG SECTION ================= */
-        .catalog { background-color: var(--bg-main); text-align: center; }
-
-        .catalog-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 40px;
-            text-align: left;
-        }
-
-        .product-card {
-            background: transparent;
-            transition: var(--transition);
-            display: flex;
-            flex-direction: column;
-        }
-
-        .product-img {
-            height: 320px;
-            border-radius: var(--radius-md);
-            overflow: hidden;
-            margin-bottom: 20px;
-            box-shadow: var(--shadow-soft);
-            position: relative;
-        }
-
-        .product-img img {
-            width: 100%; height: 100%;
-            object-fit: cover;
-            transition: var(--transition);
-        }
-
-        .product-card:hover .product-img img { transform: scale(1.05); }
-
-        .product-info h4 { font-size: 1.4rem; margin-bottom: 8px; }
-
-        .product-info p {
-            color: var(--text-muted);
-            font-size: 0.95rem;
-            margin-bottom: 20px;
-            min-height: 48px;
-        }
-
-        .product-footer {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            margin-top: auto;
-        }
-
-        .product-price {
-            font-size: 1.3rem;
-            font-weight: 600;
-            color: var(--text-earth);
-        }
-
-        .add-btn {
-            width: 44px; height: 44px;
-            border-radius: 50%;
-            background-color: var(--bg-surface);
-            border: 1px solid var(--border-light);
-            display: flex; align-items: center; justify-content: center;
-            color: var(--accent-sun);
-            cursor: pointer;
-            transition: var(--transition);
-        }
-
-        .product-card:hover .add-btn {
-            background-color: var(--accent-sun);
-            color: #fff;
-            border-color: var(--accent-sun);
-            box-shadow: 0 4px 12px rgba(255,126,0,0.3);
-        }
-
-        /* ================= FEATURES (NATURE/HEALTH) ================= */
-        .features { background-color: var(--bg-surface); text-align: center; }
-
-        .features-grid {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 40px;
-        }
-
-        .feature-item {
-            padding: 32px;
-            background-color: var(--bg-main);
-            border-radius: var(--radius-md);
-            transition: var(--transition);
-        }
-
-        .feature-item:hover {
-            transform: translateY(-5px);
-            background-color: var(--bg-sun);
-        }
-
-        .icon-wrap {
-            width: 72px; height: 72px;
-            margin: 0 auto 24px auto;
-            background-color: #FFFFFF;
-            border-radius: 50%;
-            display: flex; align-items: center; justify-content: center;
-            color: var(--accent-leaf);
-            box-shadow: 0 8px 16px rgba(0,0,0,0.03);
-        }
-
-        .icon-wrap svg { width: 32px; height: 32px; stroke-width: 1.5; }
-
-        .feature-item h4 { font-size: 1.25rem; margin-bottom: 12px; }
-        .feature-item p { color: var(--text-muted); font-size: 0.95rem; line-height: 1.6; }
-
-        /* ================= FOOTER ================= */
-        footer {
-            background-color: #2D3A2A; /* Глубокий зеленый лес */
-            color: #E2E8E0;
-            padding: 80px 0 30px 0;
-        }
-
-        .footer-grid {
-            display: grid;
-            grid-template-columns: 2fr 1fr 1fr;
-            gap: 60px;
-            margin-bottom: 60px;
-        }
-
-        .footer-brand .logo { color: #FFFFFF; margin-bottom: 20px; display: inline-block; }
-        .footer-brand .logo span { color: #A5D6A7; }
-        
-        .footer-brand p {
-            color: #A9B5A4;
-            max-width: 350px;
-            margin-bottom: 24px;
-        }
-
-        .socials { display: flex; gap: 16px; }
-        .socials a {
-            width: 40px; height: 40px;
-            border-radius: 50%;
-            background-color: rgba(255,255,255,0.05);
-            display: flex; align-items: center; justify-content: center;
-            transition: var(--transition);
-        }
-        .socials a:hover { background-color: var(--accent-sun); color: #fff; transform: translateY(-3px); }
-
-        .footer-links h5 {
-            color: #FFFFFF;
-            font-family: var(--font-body);
-            font-size: 1rem;
-            margin-bottom: 24px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-
-        .footer-links ul { display: flex; flex-direction: column; gap: 16px; }
-        .footer-links a { color: #A9B5A4; transition: var(--transition); }
-        .footer-links a:hover { color: #FFFFFF; padding-left: 5px; }
-
-        .footer-bottom {
-            text-align: center;
-            padding-top: 30px;
-            border-top: 1px solid rgba(255,255,255,0.1);
-            color: #8C9986;
-            font-size: 0.9rem;
-        }
-
-        /* ================= RESPONSIVE ================= */
-        @media (max-width: 1024px) {
-            .hero-content { flex-direction: column; text-align: center; }
-            .hero-text p { margin: 0 auto 40px auto; }
-            .hero-buttons { justify-content: center; }
-            .top-grid { grid-template-columns: 1fr; max-width: 500px; margin: 0 auto; }
-            .features-grid { grid-template-columns: repeat(2, 1fr); }
-            .image-wrapper { width: 80%; margin: 0 auto; aspect-ratio: 1/1; border-radius: 40%; }
-        }
-
-        @media (max-width: 768px) {
-            .nav-links { display: none; }
-            .hero { padding-top: 140px; }
-            .hero-text h1 { font-size: 2.8rem; }
-            .section-title { font-size: 2.2rem; }
-            .footer-grid { grid-template-columns: 1fr; text-align: center; }
-            .footer-brand p { margin: 0 auto 24px auto; }
-            .socials { justify-content: center; }
-            .features-grid { grid-template-columns: 1fr; }
-        }
     </style>
 </head>
-<body>
-
-    <!-- МЯГКИЙ СВЕТЛЫЙ HEADER -->
-    <header>
-        <div class="container header-content">
-            <a href="#" class="logo">Juice<span>Master</span></a>
-            <nav class="nav-links">
-                <a href="#expert-choice">Дары природы</a>
-                <a href="#catalog">Коллекция</a>
-                <a href="#philosophy">Наша философия</a>
-            </nav>
-            <div class="header-actions">
-                <a href="#catalog" class="btn btn-leaf">Выбрать здоровье</a>
-            </div>
+<body class="bg-surface font-body text-primary selection:bg-tertiary-fixed">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-white/70 dark:bg-stone-900/70 glass-nav">
+<div class="flex justify-between items-center w-full px-8 py-6 max-w-screen-2xl mx-auto">
+<div class="text-2xl font-serif italic font-bold text-green-900 dark:text-green-50">JuiceMaster</div>
+<div class="hidden md:flex gap-10 items-center">
+<a class="text-green-900 dark:text-green-50 border-b-2 border-orange-500 pb-1 font-body" href="#expert-choice">Дары природы</a>
+<a class="text-green-800/60 dark:text-stone-400 hover:text-green-900 dark:hover:text-stone-200 transition-colors font-body" href="#catalog">Коллекция</a>
+<a class="text-green-800/60 dark:text-stone-400 hover:text-green-900 dark:hover:text-stone-200 transition-colors font-body" href="#philosophy">Наша философия</a>
+</div>
+<a href="#catalog" class="bg-primary text-on-primary px-8 py-3 rounded-full font-label uppercase tracking-widest text-xs hover:opacity-80 transition-opacity duration-300 active:scale-95 ease-leaf-fall">
+                Выбрать здоровье
+            </a>
+</div>
+</nav>
+<main class="pt-24 sun-flare overflow-x-hidden">
+<!-- Hero Section -->
+<section class="relative px-8 py-20 md:py-32 max-w-screen-2xl mx-auto flex flex-col md:flex-row items-center gap-16">
+<div class="w-full md:w-1/2 z-10">
+<span class="font-label uppercase tracking-[0.3em] text-xs text-on-tertiary-container mb-4 block">Пробуждение вкуса</span>
+<h1 class="text-5xl md:text-8xl font-headline leading-[1.1] mb-8 tracking-tight">
+                    Вкус <span class="italic text-on-tertiary-container">утреннего солнца</span> в вашем соке
+                </h1>
+<p class="text-on-surface-variant max-w-lg mb-12 leading-relaxed text-lg">
+                    Бережная технология холодного отжима сохраняет до 95% витаминов, энзимов и истинную энергию живой природы для вашего иммунитета.
+                </p>
+<div class="flex flex-wrap gap-6">
+<a href="#catalog" class="bg-primary text-on-primary px-10 py-5 rounded-full font-label font-bold text-sm tracking-wide shadow-xl shadow-primary/5 hover:opacity-90 transition-all animate-pulse-glow">
+                        Смотреть коллекцию
+                    </a>
+</div>
+</div>
+<div class="w-full md:w-1/2 relative">
+<!-- Organic Shape & Image -->
+<div class="relative w-full aspect-square flex items-center justify-center">
+<div class="absolute inset-0 organic-blob bg-secondary-fixed-dim/30 animate-pulse"></div>
+<div class="relative w-4/5 h-4/5 organic-blob overflow-hidden z-10 shadow-2xl animate-float">
+<img alt="Свежевыжатый апельсиновый сок на солнце" class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1600271886742-f049cd451bba?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80&sat=20"/>
+</div>
+</div>
+</div>
+</section>
+<!-- Expert Choice - Bento Grid Style -->
+<section id="expert-choice" class="px-8 py-24 max-w-screen-2xl mx-auto">
+<div class="mb-16 flex flex-col md:flex-row md:items-end justify-between gap-6">
+<div>
+<span class="font-label uppercase tracking-[0.3em] text-xs text-on-tertiary-container mb-4 block">Выбор нутрициологов</span>
+<h2 class="text-4xl md:text-5xl font-headline italic">Сила корнеплодов и фруктов</h2>
+</div>
+<p class="text-on-surface-variant max-w-md">Мы отобрали три идеальных решения, которые безупречно справляются с твердыми яблоками, сладкой морковью и полезной свеклой.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-8">
+<!-- Card 1: Morning Breeze 800 -->
+<div class="md:col-span-7 bg-surface-container-lowest rounded-xl p-10 flex flex-col md:flex-row gap-8 items-center group cursor-pointer hover:bg-primary-fixed transition-colors ease-leaf-fall">
+<div class="w-full md:w-1/2 aspect-square rounded-lg overflow-hidden">
+<img alt="Morning Breeze 800" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="1-1.jpg"/>
+</div>
+<div class="w-full md:w-1/2">
+<span class="bg-secondary-container text-on-secondary-container px-4 py-1 rounded-full text-xs font-bold mb-4 inline-block">Лёгкое пробуждение</span>
+<h3 class="text-3xl font-headline mb-4 leading-tight">Morning Breeze 800</h3>
+<p class="text-on-surface-variant mb-8">Идеальна для утренней спешки. Мощная центрифуга мгновенно превращает целые яблоки и морковь в заряд бодрости на весь день.</p>
+<div class="text-2xl font-bold text-primary mb-6">5 900 ₽</div>
+<a href="#catalog" class="w-full py-4 border border-outline-variant/20 rounded-full font-bold text-center hover:bg-primary hover:text-on-primary transition-all block">Узнать больше</a>
+</div>
+</div>
+<!-- Card 2: Vitality Press Cold -->
+<div class="md:col-span-5 bg-surface-container rounded-xl p-10 flex flex-col justify-between group cursor-pointer hover:bg-tertiary-fixed transition-colors ease-leaf-fall">
+<div>
+<span class="bg-tertiary-fixed-dim text-on-tertiary-fixed-variant px-4 py-1 rounded-full text-xs font-bold mb-6 inline-block">Природный баланс</span>
+<h3 class="text-3xl font-headline mb-4">Vitality Press Cold</h3>
+<p class="text-on-surface-variant mb-8">Золотая середина здорового питания. Бережный шнековый отжим не нагревает сок, сохраняя максимум полезных микроэлементов.</p>
+</div>
+<div>
+<div class="text-2xl font-bold text-primary mb-6">18 500 ₽</div>
+<img alt="Vitality Press" class="w-full aspect-[4/3] object-cover rounded-lg mb-6 shadow-sm group-hover:-translate-y-2 transition-transform" src="1-4.jpg"/>
+<a href="#catalog" class="w-full py-4 bg-primary text-on-primary rounded-full font-bold text-center block hover:opacity-90 transition-all">Выбор экспертов</a>
+</div>
+</div>
+<!-- Card 3: Harmony Master Pro -->
+<div class="md:col-span-12 bg-white rounded-xl p-8 md:p-12 flex flex-col md:flex-row items-center gap-12 group cursor-pointer shadow-sm hover:shadow-xl transition-all duration-500">
+<div class="w-full md:w-2/5 order-2 md:order-1">
+<span class="text-orange-600 font-bold uppercase tracking-widest text-xs mb-4 block">Чистая эссенция</span>
+<h3 class="text-4xl md:text-5xl font-headline italic mb-6">Harmony Master Pro</h3>
+<p class="text-on-surface-variant text-lg mb-8 leading-relaxed">Бескомпромиссное отношение к здоровью. Эко-материалы, премиальная тишина работы и выжимка сока до самой последней капли.</p>
+<div class="flex items-baseline gap-4 mb-10">
+<span class="text-4xl font-bold">45 900 ₽</span>
+</div>
+<a href="#catalog" class="bg-primary text-on-primary px-12 py-5 rounded-full font-bold inline-block hover:opacity-90 transition-all">Узнать больше</a>
+</div>
+<div class="w-full md:w-3/5 order-1 md:order-2">
+<img alt="Harmony Master Pro" class="w-full h-[400px] object-cover rounded-lg shadow-inner" src="1-6.jpg"/>
+</div>
+</div>
+</div>
+</section>
+<!-- Catalog Section -->
+<section id="catalog" class="bg-surface-container-low py-24 px-8">
+<div class="max-w-screen-2xl mx-auto">
+<div class="mb-16 text-center">
+<span class="font-label uppercase tracking-[0.3em] text-xs text-on-tertiary-container mb-4 block">Наш ассортимент</span>
+<h2 class="text-4xl font-headline mb-4">Коллекция для вашего здоровья</h2>
+<div class="w-24 h-1 bg-orange-500 mx-auto"></div>
+<p class="text-on-surface-variant max-w-md mx-auto mt-6">Найдите свою идеальную соковыжималку для любых фруктов, овощей, зелени и ягод.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+<!-- Product 1: Citrus Bloom -->
+<div class="bg-surface-container-lowest p-6 rounded-lg group animate-on-scroll">
+<div class="aspect-[4/5] rounded-md overflow-hidden mb-8 bg-surface-container relative">
+<img alt="Citrus Bloom" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="1-2.jpg"/>
+<button class="absolute bottom-4 right-4 bg-primary text-on-primary p-4 rounded-full opacity-0 group-hover:opacity-100 transition-opacity" onclick="addToCart('Citrus Bloom', '3 500 ₽')">
+<span class="material-symbols-outlined">shopping_cart</span>
+</button>
+</div>
+<h4 class="text-xl font-bold mb-2">Citrus Bloom</h4>
+<p class="text-on-surface-variant text-sm mb-6">Специально для идеального апельсинового и грейпфрутового фреша.</p>
+<div class="flex items-center justify-between">
+<span class="text-xl font-bold">3 500 ₽</span>
+<span class="text-xs text-on-tertiary-container font-bold uppercase">В наличии</span>
+</div>
+</div>
+<!-- Product 2: Aura Steel 810 -->
+<div class="bg-surface-container-lowest p-6 rounded-lg group animate-on-scroll animate-delay-1">
+<div class="aspect-[4/5] rounded-md overflow-hidden mb-8 bg-surface-container relative">
+<img alt="Aura Steel 810" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="1-5.jpg"/>
+<button class="absolute bottom-4 right-4 bg-primary text-on-primary p-4 rounded-full opacity-0 group-hover:opacity-100 transition-opacity" onclick="addToCart('Aura Steel 810', '39 000 ₽')">
+<span class="material-symbols-outlined">shopping_cart</span>
+</button>
+</div>
+<h4 class="text-xl font-bold mb-2">Aura Steel 810</h4>
+<p class="text-on-surface-variant text-sm mb-6">Эстетика и долговечность. Корпус из безопасной пищевой стали.</p>
+<div class="flex items-center justify-between">
+<span class="text-xl font-bold">39 000 ₽</span>
+<span class="text-xs text-on-tertiary-container font-bold uppercase">Новинка</span>
+</div>
+</div>
+<!-- Product 3: Green Leaf Slow -->
+<div class="bg-surface-container-lowest p-6 rounded-lg group animate-on-scroll animate-delay-2">
+<div class="aspect-[4/5] rounded-md overflow-hidden mb-8 bg-surface-container relative">
+<img alt="Green Leaf Slow" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="1-3.jpg"/>
+<button class="absolute bottom-4 right-4 bg-primary text-on-primary p-4 rounded-full opacity-0 group-hover:opacity-100 transition-opacity" onclick="addToCart('Green Leaf Slow', '12 000 ₽')">
+<span class="material-symbols-outlined">shopping_cart</span>
+</button>
+</div>
+<h4 class="text-xl font-bold mb-2">Green Leaf Slow</h4>
+<p class="text-on-surface-variant text-sm mb-6">Идеально подходит для отжима хлорофилла из сельдерея, витграсса и зелени.</p>
+<div class="flex items-center justify-between">
+<span class="text-xl font-bold">12 000 ₽</span>
+<span class="text-xs text-on-tertiary-container font-bold uppercase">Эко-серия</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Philosophy Section -->
+<section id="philosophy" class="py-24 px-8 max-w-screen-2xl mx-auto overflow-hidden">
+<div class="flex flex-col md:flex-row gap-20 items-center">
+<div class="w-full md:w-1/2 relative">
+<div class="absolute -top-10 -right-10 w-64 h-64 bg-tertiary-fixed rounded-full filter blur-3xl opacity-30"></div>
+<img alt="Свежие ингредиенты" class="rounded-xl relative z-10 w-full object-cover aspect-square shadow-2xl" src="https://images.unsplash.com/photo-1610832958506-aa56368176cf?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"/>
+</div>
+<div class="w-full md:w-1/2">
+<span class="font-label uppercase tracking-[0.3em] text-xs text-on-tertiary-container mb-4 block">Почему мы</span>
+<h2 class="text-4xl md:text-6xl font-headline italic mb-10 leading-tight">Философия заботы о вас</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-10">
+<div class="space-y-4">
+<span class="material-symbols-outlined text-orange-500 text-3xl">verified_user</span>
+<h5 class="font-bold text-lg">Долголетие техники</h5>
+<p class="text-on-surface-variant text-sm leading-relaxed">Честная гарантия 5 лет. Мы используем только эко-материалы (Tritan, Ultem) и сверхнадежные моторы.</p>
+</div>
+<div class="space-y-4">
+<span class="material-symbols-outlined text-orange-500 text-3xl">local_shipping</span>
+<h5 class="font-bold text-lg">Бережная доставка</h5>
+<p class="text-on-surface-variant text-sm leading-relaxed">Аккуратно упакуем и бесплатно доставим покупку прямо к дверям вашей кухни за 24 часа.</p>
+</div>
+<div class="space-y-4">
+<span class="material-symbols-outlined text-orange-500 text-3xl">clinical_notes</span>
+<h5 class="font-bold text-lg">Почувствуйте разницу</h5>
+<p class="text-on-surface-variant text-sm leading-relaxed">Даем 14 дней на тест-драйв. Убедитесь сами, насколько сок отличается по вкусу и плотности.</p>
+</div>
+<div class="space-y-4">
+<span class="material-symbols-outlined text-orange-500 text-3xl">support_agent</span>
+<h5 class="font-bold text-lg">Теплое отношение</h5>
+<p class="text-on-surface-variant text-sm leading-relaxed">Наши нутрициологи и эксперты всегда на связи, чтобы помочь с выбором аппарата и рецептами.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-green-950 dark:bg-stone-950 text-stone-50 rounded-t-[3rem] mt-20">
+<div class="flex flex-col md:flex-row justify-between items-center w-full px-12 py-16 max-w-screen-2xl mx-auto">
+<div class="mb-12 md:mb-0 text-center md:text-left">
+<div class="text-xl font-serif italic text-orange-500 mb-4">JuiceMaster</div>
+<p class="text-stone-300/70 max-w-xs font-body uppercase tracking-widest text-xs">Магазин техники для осознанного и здорового образа жизни. Черпайте энергию из самой природы.</p>
+</div>
+<div class="flex flex-wrap justify-center gap-8 md:gap-16">
+<a class="font-body uppercase tracking-widest text-xs text-stone-300/70 hover:text-orange-400 transition-colors duration-500" href="#expert-choice">Дары природы</a>
+<a class="font-body uppercase tracking-widest text-xs text-stone-300/70 hover:text-orange-400 transition-colors duration-500" href="#catalog">Коллекция</a>
+<a class="font-body uppercase tracking-widest text-xs text-stone-300/70 hover:text-orange-400 transition-colors duration-500" href="#philosophy">Философия</a>
+</div>
+<div class="mt-12 md:mt-0 flex gap-6">
+<a href="mailto:hello@juicemaster.ru" class="w-10 h-10 rounded-full border border-stone-50/20 flex items-center justify-center hover:bg-orange-500 hover:border-orange-500 transition-all">
+<span class="material-symbols-outlined text-sm">alternate_email</span>
+</a>
+<a href="tel:88005553535" class="w-10 h-10 rounded-full border border-stone-50/20 flex items-center justify-center hover:bg-orange-500 hover:border-orange-500 transition-all">
+<span class="material-symbols-outlined text-sm">call</span>
+</a>
+</div>
+</div>
+<div class="pb-8 text-center opacity-30 text-[10px] tracking-[0.5em] uppercase">
+            © 2024 JuiceMaster. Живите со вкусом.
         </div>
-    </header>
+</footer>
 
-    <!-- ВОЗДУШНЫЙ HERO SECTION -->
-    <section class="hero">
-        <div class="sun-flare"></div>
-        <div class="container hero-content">
-            <div class="hero-text">
-                <span class="section-tag">Пробуждение вкуса</span>
-                <h1>Вкус <i>утреннего солнца</i> <br>в вашем соке</h1>
-                <p>Бережная технология холодного отжима сохраняет до 95% витаминов, энзимов и истинную энергию живой природы для вашего иммунитета.</p>
-                <div class="hero-buttons">
-                    <a href="#catalog" class="btn btn-sun">Смотреть коллекцию</a>
-                </div>
-            </div>
-            <div class="hero-image">
-                <div class="image-wrapper">
-                    <!-- Залитое светом фото апельсинового фреша -->
-                    <img src="https://images.unsplash.com/photo-1600271886742-f049cd451bba?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80&sat=20" alt="Свежевыжатый сок на солнце">
-                </div>
-            </div>
-        </div>
-    </section>
+<!-- Back to Top Button -->
+<button class="back-to-top" id="backToTop">
+<span class="material-symbols-outlined">arrow_upward</span>
+</button>
 
-    <!-- ТОП-3 (ПРИРОДНЫЙ ВЫБОР) -->
-    <section id="expert-choice" class="top-choice">
-        <div class="container">
-            <span class="section-tag">Выбор нутрициологов</span>
-            <h2 class="section-title">Сила корнеплодов и фруктов</h2>
-            <p class="section-subtitle">Мы отобрали три идеальных решения, которые безупречно справляются с твердыми яблоками, сладкой морковью и полезной свеклой.</p>
-            
-            <div class="top-grid">
-                <!-- Budget -->
-                <article class="top-card">
-                    <span class="badge easy">Лёгкое пробуждение</span>
-                    <div class="img-container">
-                        <img src="1-1.jpg" alt="Centrifugal Juicer">
-                    </div>
-                    <h3>Morning Breeze 800</h3>
-                    <div class="price">5 900 ₽</div>
-                    <p>Идеальна для утренней спешки. Мощная центрифуга мгновенно превращает целые яблоки и морковь в заряд бодрости на весь день.</p>
-                    <a href="#catalog" class="btn btn-leaf">Подробнее</a>
-                </article>
+<!-- Notification Container -->
+<div class="notification" id="notification"></div>
 
-                <!-- Mid-range -->
-                <article class="top-card">
-                    <span class="badge balance">Природный баланс</span>
-                    <div class="img-container">
-                        <img src="1-4.jpg" alt="Slow Juicer">
-                    </div>
-                    <h3>Vitality Press Cold</h3>
-                    <div class="price">18 500 ₽</div>
-                    <p>Золотая середина здорового питания. Бережный шнековый отжим не нагревает сок, сохраняя максимум полезных микроэлементов.</p>
-                    <a href="#catalog" class="btn btn-sun">Выбор экспертов</a>
-                </article>
-
-                <!-- Premium -->
-                <article class="top-card">
-                    <span class="badge pure">Чистая эссенция</span>
-                    <div class="img-container">
-                        <img src="1-6.jpg" alt="Premium Juicer">
-                    </div>
-                    <h3>Harmony Master Pro</h3>
-                    <div class="price">45 900 ₽</div>
-                    <p>Бескомпромиссное отношение к здоровью. Эко-материалы, премиальная тишина работы и выжимка сока до самой последней капли.</p>
-                    <a href="#catalog" class="btn btn-leaf">Узнать больше</a>
-                </article>
-            </div>
-        </div>
-    </section>
-
-    <!-- КАТАЛОГ (КОЛЛЕКЦИЯ ЗДОРОВЬЯ) -->
-    <section id="catalog" class="catalog">
-        <div class="container">
-            <span class="section-tag">Наш ассортимент</span>
-            <h2 class="section-title">Коллекция для вашего здоровья</h2>
-            <p class="section-subtitle">Найдите свою идеальную соковыжималку для любых фруктов, овощей, зелени и ягод.</p>
-            
-            <div class="catalog-grid">
-                <!-- Товар 1 -->
-                <article class="product-card">
-                    <div class="product-img">
-                        <img src="1-2.jpg" alt="Цитрусовый пресс">
-                    </div>
-                    <div class="product-info">
-                        <h4>Citrus Bloom</h4>
-                        <p>Специально для идеального апельсинового и грейпфрутового фреша.</p>
-                        <div class="product-footer">
-                            <span class="product-price">3 500 ₽</span>
-                            <button class="add-btn"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path></svg></button>
-                        </div>
-                    </div>
-                </article>
-
-                <!-- Товар 2 -->
-                <article class="product-card">
-                    <div class="product-img">
-                        <img src="1-5.jpg" alt="Эстетика стали">
-                    </div>
-                    <div class="product-info">
-                        <h4>Aura Steel 810</h4>
-                        <p>Эстетика и долговечность. Корпус из безопасной пищевой стали.</p>
-                        <div class="product-footer">
-                            <span class="product-price">39 000 ₽</span>
-                            <button class="add-btn"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path></svg></button>
-                        </div>
-                    </div>
-                </article>
-
-                <!-- Товар 3 -->
-                <article class="product-card">
-                    <div class="product-img">
-                        <img src="1-3.jpg" alt="Для зелени">
-                    </div>
-                    <div class="product-info">
-                        <h4>Green Leaf Slow</h4>
-                        <p>Идеально подходит для отжима хлорофилла из сельдерея, витграсса и зелени.</p>
-                        <div class="product-footer">
-                            <span class="product-price">12 000 ₽</span>
-                            <button class="add-btn"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path></svg></button>
-                        </div>
-                    </div>
-                </article>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- ФИЛОСОФИЯ (ПРЕИМУЩЕСТВА) -->
-    <section id="philosophy" class="features">
-        <div class="container">
-            <span class="section-tag">Почему мы</span>
-            <h2 class="section-title">Философия заботы о вас</h2>
-            <p class="section-subtitle">Мы создаем комфорт на каждом этапе, чтобы ваш путь к здоровью был приятным и легким.</p>
-            
-            <div class="features-grid">
-                <div class="feature-item">
-                    <div class="icon-wrap">
-                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
-                    </div>
-                    <h4>Долголетие техники</h4>
-                    <p>Честная гарантия 5 лет. Мы используем только эко-материалы (Tritan, Ultem) и сверхнадежные моторы.</p>
-                </div>
-
-                <div class="feature-item">
-                    <div class="icon-wrap">
-                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"></path></svg>
-                    </div>
-                    <h4>Бережная доставка</h4>
-                    <p>Аккуратно упакуем и бесплатно доставим покупку прямо к дверям вашей кухни за 24 часа.</p>
-                </div>
-
-                <div class="feature-item">
-                    <div class="icon-wrap">
-                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                    </div>
-                    <h4>Почувствуйте разницу</h4>
-                    <p>Даем 14 дней на тест-драйв. Убедитесь сами, насколько сок отличается по вкусу и плотности.</p>
-                </div>
-
-                <div class="feature-item">
-                    <div class="icon-wrap">
-                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                    </div>
-                    <h4>Теплое отношение</h4>
-                    <p>Наши нутрициологи и эксперты всегда на связи, чтобы помочь с выбором аппарата и рецептами.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ПОДВАЛ (ЛЕСНОЙ/ПРИРОДНЫЙ) -->
-    <footer>
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-brand">
-                    <a href="#" class="logo">Juice<span>Master</span></a>
-                    <p>Магазин техники для осознанного и здорового образа жизни. Черпайте энергию из самой природы вместе с нами.</p>
-                    <div class="socials">
-                        <a href="#"><svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg></a>
-                        <a href="#"><svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
-                    </div>
-                </div>
-
-                <div class="footer-links">
-                    <h5>Меню</h5>
-                    <ul>
-                        <li><a href="#expert-choice">Дары природы (Топ-3)</a></li>
-                        <li><a href="#catalog">Вся коллекция</a></li>
-                        <li><a href="#philosophy">Наша философия</a></li>
-                        <li><a href="#">Рецепты здоровья</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-links">
-                    <h5>Контакты</h5>
-                    <ul>
-                        <li><a href="tel:88005553535">8 (800) 555-35-35</a></li>
-                        <li><a href="mailto:hello@juicemaster.ru">hello@juicemaster.ru</a></li>
-                        <li>г. Москва, Эко-квартал, д. 1</li>
-                        <li>Ежедневно с 9:00 до 21:00</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="footer-bottom">
-                <p>&copy; 2024 JuiceMaster. Все права защищены. Живите со вкусом.</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- ================= JAVASCRIPT ================= -->
-    <script>
-        // Preloader
-        window.addEventListener('load', function() {
-            const preloader = document.querySelector('.preloader');
-            if (preloader) {
-                preloader.classList.add('hidden');
-            }
-        });
-
+<script>
         // Back to Top Button
-        const backToTop = document.createElement('button');
-        backToTop.className = 'back-to-top';
-        backToTop.innerHTML = '<svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="24" height="24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path></svg>';
-        document.body.appendChild(backToTop);
+        const backToTop = document.getElementById('backToTop');
 
-        // Show/Hide Back to Top Button
         window.addEventListener('scroll', function() {
             if (window.scrollY > 500) {
                 backToTop.classList.add('visible');
@@ -997,12 +412,8 @@
             }
         });
 
-        // Scroll to Top on Click
         backToTop.addEventListener('click', function() {
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-            });
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         });
 
         // Smooth Scroll for Navigation Links
@@ -1011,10 +422,7 @@
                 e.preventDefault();
                 const target = document.querySelector(this.getAttribute('href'));
                 if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
                 }
             });
         });
@@ -1034,156 +442,47 @@
             });
         }, observerOptions);
 
-        // Add animation classes to elements
-        document.querySelectorAll('.top-card, .product-card, .feature-item').forEach((el, index) => {
-            el.classList.add('animate-on-scroll');
-            el.classList.add(`animate-delay-${(index % 4) + 1}`);
+        document.querySelectorAll('.animate-on-scroll').forEach(el => {
             observer.observe(el);
         });
 
         // Header Scroll Effect
-        const header = document.querySelector('header');
-        let lastScroll = 0;
-
+        const header = document.querySelector('nav');
         window.addEventListener('scroll', function() {
-            const currentScroll = window.scrollY;
-            
-            if (currentScroll > 100) {
-                header.style.background = 'rgba(252, 251, 248, 0.98)';
-                header.style.boxShadow = '0 4px 20px rgba(139, 126, 111, 0.1)';
+            if (window.scrollY > 100) {
+                header.classList.add('shadow-lg');
             } else {
-                header.style.background = 'rgba(252, 251, 248, 0.9)';
-                header.style.boxShadow = 'none';
+                header.classList.remove('shadow-lg');
             }
-            
-            lastScroll = currentScroll;
         });
 
-        // Product Button Interaction
-        document.querySelectorAll('.add-btn').forEach(btn => {
-            btn.addEventListener('click', function() {
-                const productCard = this.closest('.product-card');
-                const productName = productCard.querySelector('h4').textContent;
-                
-                // Visual feedback
-                this.innerHTML = '<svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>';
-                this.style.background = '#4D8B55';
-                this.style.borderColor = '#4D8B55';
-                this.style.color = '#fff';
-                
-                // Show notification
-                showNotification(`${productName} добавлен в корзину!`);
-                
-                // Reset button after 2 seconds
-                setTimeout(() => {
-                    this.innerHTML = '<svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path></svg>';
-                    this.style.background = '';
-                    this.style.borderColor = '';
-                    this.style.color = '';
-                }, 2000);
-            });
-        });
+        // Add to Cart Function
+        function addToCart(productName, price) {
+            showNotification(`${productName} (${price}) добавлен в корзину!`);
+        }
 
         // Notification Function
         function showNotification(message) {
-            // Remove existing notification
-            const existing = document.querySelector('.notification');
-            if (existing) {
-                existing.remove();
-            }
-
-            // Create notification
-            const notification = document.createElement('div');
-            notification.className = 'notification';
+            const notification = document.getElementById('notification');
             notification.textContent = message;
-            document.body.appendChild(notification);
+            notification.classList.add('show');
 
-            // Show notification
-            setTimeout(() => {
-                notification.classList.add('show');
-            }, 10);
-
-            // Hide notification after 3 seconds
             setTimeout(() => {
                 notification.classList.remove('show');
-                setTimeout(() => {
-                    notification.remove();
-                }, 400);
             }, 3000);
         }
 
         // Hero Image Parallax Effect
-        const heroImage = document.querySelector('.image-wrapper');
+        const heroImage = document.querySelector('.organic-blob.overflow-hidden');
         if (heroImage) {
             window.addEventListener('scroll', function() {
                 const scrolled = window.scrollY;
                 if (scrolled < 800) {
-                    heroImage.style.transform = `translateY(${scrolled * 0.1}px)`;
+                    heroImage.style.transform = `translateY(${scrolled * 0.05}px)`;
                 }
             });
         }
 
-        // Feature Items Hover Effect
-        document.querySelectorAll('.feature-item').forEach(item => {
-            item.addEventListener('mouseenter', function() {
-                this.querySelector('.icon-wrap').style.transform = 'scale(1.1) rotate(5deg)';
-            });
-            
-            item.addEventListener('mouseleave', function() {
-                this.querySelector('.icon-wrap').style.transform = 'scale(1) rotate(0deg)';
-            });
-        });
-
-        // Logo Animation
-        const logo = document.querySelector('.logo');
-        if (logo) {
-            logo.addEventListener('mouseenter', function() {
-                this.style.transform = 'scale(1.05)';
-            });
-            
-            logo.addEventListener('mouseleave', function() {
-                this.style.transform = 'scale(1)';
-            });
-        }
-
-        // CTA Button Pulse Animation
-        const ctaButton = document.querySelector('.btn-sun');
-        if (ctaButton) {
-            setInterval(() => {
-                ctaButton.classList.toggle('pulse');
-            }, 3000);
-        }
-
-        // Lazy Loading for Images
-        if ('IntersectionObserver' in window) {
-            const imageObserver = new IntersectionObserver((entries, observer) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        const img = entry.target;
-                        if (img.dataset.src) {
-                            img.src = img.dataset.src;
-                            img.removeAttribute('data-src');
-                        }
-                        observer.unobserve(img);
-                    }
-                });
-            });
-
-            document.querySelectorAll('img[data-src]').forEach(img => {
-                imageObserver.observe(img);
-            });
-        }
-
-        // Sun Flare Animation
-        const sunFlare = document.querySelector('.sun-flare');
-        if (sunFlare) {
-            setInterval(() => {
-                sunFlare.style.transform = `scale(${1 + Math.random() * 0.1})`;
-            }, 5000);
-        }
-
         console.log('JuiceMaster: Все анимации загружены успешно!');
     </script>
-
-</body>
-</html>
+</body></html>
